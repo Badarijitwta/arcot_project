@@ -12,7 +12,17 @@
 
 
 
-/* .navbar-logo {} */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo>img {
+  height: 1rem;
+  width: 1rem;
+  margin: 0 0.5rem 0 0.5rem;
+}
 
 .navbar-menu {
   display: flex;

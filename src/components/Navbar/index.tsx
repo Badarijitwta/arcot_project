@@ -4,6 +4,7 @@ export default function Navbar() {
   return (
     <div className="navbar-main">
       <div className="navbar-logo">
+        <img src="increasing.png" alt="" />
         <h3 id="logo-text">Arcot AI</h3>
       </div>
       <div className="navbar-menu">
