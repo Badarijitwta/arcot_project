@@ -1,0 +1,29 @@
+.footer-container {
+  background-color: rgba(36, 29, 29, 0.995);
+  color: #aedcfc;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#footer-heading {
+  margin: 1rem;
+}
+
+.footer-main-content {
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.footer-content-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}

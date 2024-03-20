@@ -19,6 +19,12 @@ body {
   height: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+
+}
+
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -57,4 +63,11 @@ h6 {
 
 body {
   font-family: Poppins;
+  /* height: 1200px; */
+  /* background-color: #A8A1FC; */
+  /* background-image: linear-gradient(to right bottom, #a8a1fc, #94a1fd, #7ea0fd, #64a0fc, #419ffa); */
 }
+
+/* * {
+  border: 1px solid wheat;
+} */
