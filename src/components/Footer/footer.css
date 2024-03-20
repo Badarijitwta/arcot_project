@@ -27,3 +27,15 @@
   align-items: center;
   text-align: center;
 }
+
+@media (max-width:400px) {
+  .footer-content-block {
+    font-size: smaller;
+    margin: 1rem 0 0 0;
+  }
+
+  .footer-main-content {
+    gap: 2rem;
+  }
+
+}

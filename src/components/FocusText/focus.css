@@ -25,3 +25,25 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: justify;
 }
+
+@media (max-width:400px) {
+  .focus-text-wrapper {
+    height: 90%;
+    margin: 1rem auto;
+    line-height: 0.9;
+    width: 95%;
+  }
+
+  .focus-text #focus-paragraph {
+    font-size: medium;
+  }
+
+  .focus-text>#focus-header {
+    font-size: medium;
+  }
+
+  .focus-text {
+    /* padding: 0.2rem; */
+    margin: 1.3rem
+  }
+}

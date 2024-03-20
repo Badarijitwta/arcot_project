@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
+  /* position: relative; */
   top: 0;
   background-image: linear-gradient(to right top, #63b5ff, #64bbff, #68c1ff, #6dc7ff, #73cdff);
 }
@@ -28,3 +28,24 @@
 }
 
 /* .navbar-misc {} */
+
+@media (max-width:400px) {
+  .navbar-main {
+    font-size: 0.8rem;
+    height: 4rem;
+    width: 100vw;
+  }
+
+  .navbar-menu {
+    display: none;
+  }
+
+  #logo-text {
+    margin-left: 2rem;
+  }
+
+  .navbar-misc {
+    display: none;
+  }
+
+}
