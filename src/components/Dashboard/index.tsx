@@ -1,9 +1,38 @@
 import "./dashboard.css";
+import { ChartWrapper } from "./../chartWrapper/dataDisplay";
 
 function Dashboard() {
+  //I created mock API server in Postman
+  // const [aiData, setAiData] = useState<Data | null>(null);
+
+  // useEffect(() => {
+  //   // Load the JSON data from the file
+  //   const fetchData = async () => {
+  //     try {
+  //       const response = await axios.get<Data>(
+  //         "https://799764ef-5d51-4f5c-b382-fd135eadbdbd.mock.pstmn.io/api/data"
+  //       );
+  //       setAiData(response.data);
+  //       // setAiData(response);
+  //     } catch (error) {
+  //       console.error("Error fetching data:", error);
+  //     }
+  //   };
+
+  //   fetchData();
+
+  //   return () => {
+  //     console.log("This is cleanUp");
+  //   };
+  // }, []);
+  // console.log(aiData);
+
   return (
     <div className="dashboard-main">
       <h2>Dashboard</h2>
+      <div className="chart-wrapper">
+      <ChartWrapper />
+      </div>
       <div className="dashboard-image">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path

@@ -68,6 +68,10 @@ body {
   /* background-image: linear-gradient(to right bottom, #a8a1fc, #94a1fd, #7ea0fd, #64a0fc, #419ffa); */
 }
 
+@media (min-width:1000px) {}
+
+
+
 /* * {
   border: 1px solid wheat;
 } */
