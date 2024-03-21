@@ -1,0 +1,12 @@
+.platform-bar-chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.country-pie-chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}

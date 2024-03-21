@@ -1,5 +1,5 @@
 import "./dashboard.css";
-import { ChartWrapper } from "./../chartWrapper/dataDisplay";
+import ChartWrapper from "../chartWrapper";
 
 function Dashboard() {
   //I created mock API server in Postman
@@ -31,7 +31,7 @@ function Dashboard() {
     <div className="dashboard-main">
       <h2>Dashboard</h2>
       <div className="chart-wrapper">
-      <ChartWrapper />
+        <ChartWrapper />
       </div>
       <div className="dashboard-image">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
